@@ -1,0 +1,173 @@
+body {
+
+  background-color: #fae7cb;
+color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+/**********************even single auto could work(if width: 10%;
+  margin: 0 auto 0 auto;)************/
+h1 {
+  margin: 0;
+}
+
+h2 {
+  color:  #dc7646;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.6rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #b80d57;
+  margin: 0;
+  font-family: 'Montserrat'sans-serif;
+}
+
+a{
+  color:  #dc7646;
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #915b4a;;
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+  border: dotted #ecdfc8 6px;
+  border-bottom: none;
+  width: 4%;
+}
+
+.main-background {
+  margin-top: 20px;
+  width: 80%;
+}
+
+.top-container {
+  background-color: white;
+}
+
+.middle-container {
+  background-color: #fffafa;;
+  margin: 50px 0;
+  padding-bottom: 50px;
+}
+
+.profile {
+  background-color: #fae7cb;
+  margin-top: 10px;
+}
+
+.intro{
+  width: 30%;
+}
+
+.profile1 {
+  width: 25%
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+.flower-1 {
+  float: left;
+}
+
+.flower-2 {
+  float: right;
+}
+
+
+.intro{
+  width: 50%;
+margin: auto;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+padding-bottom: 40px;
+
+}
+
+.design {
+  width: 18%;
+  float: left;
+  margin-right: 30px;
+}
+
+
+.dance {
+  float: right;
+  width: 30%;
+}
+
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+
+	background-color:#ffb89a;
+	-webkit-border-top-left-radius:8px;
+	-moz-border-radius-topleft:8px;
+	border-top-left-radius:8px;
+	-webkit-border-top-right-radius:8px;
+	-moz-border-radius-topright:8px;
+	border-top-right-radius:8px;
+	-webkit-border-bottom-right-radius:8px;
+	-moz-border-radius-bottomright:8px;
+	border-bottom-right-radius:8px;
+	-webkit-border-bottom-left-radius:8px;
+	-moz-border-radius-bottomleft:8px;
+	border-bottom-left-radius:8px;
+text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+height:50px;
+	line-height:50px;
+width:140px;
+	text-decoration:none;
+	text-align:center;
+}
+.btn:hover {
+	background-color:#dc7546;
+}
+
+.bottom-container {
+  background-color: #fae7cb;
+  padding-bottom: 40px;
+
+}
+
+.last{
+  width: 10%;
+    margin: auto;
+
+}
+.logo {
+  width: 25px;
+  float: left;
+
+}
+.copy-right{
+    color: #915b4a;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
