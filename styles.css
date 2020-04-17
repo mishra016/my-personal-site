@@ -107,9 +107,15 @@ padding-bottom: 40px;
 }
 
 
-.dance {
+.time {
   float: right;
-  width: 30%;
+  width: 18%;
+}
+
+.prob{
+  width: 18%;
+  float: left;
+  margin-right: 30px;
 }
 
 
