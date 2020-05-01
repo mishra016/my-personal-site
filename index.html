@@ -6,35 +6,75 @@
 
   <meta charset="utf-8">
   <title>Mohi Mishra</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="favicon.ico" />
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:wght@500&family=Sacramento&display=swap" rel="stylesheet">
-   <script src="https://kit.fontawesome.com/f010fe0a40.js" crossorigin="anonymous"></script>
-  
+
+
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:wght@500&family=Sacramento&display=swap" rel="stylesheet">
+
+
+  <link rel="icon" href="https://image.flaticon.com/icons/svg/81/81661.svg" />
+
+<script src="https://kit.fontawesome.com/f010fe0a40.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+
+
+
 </head>
 <body>
-  <div class="top-container">
-    <img class="main-background" src="bg.jpg" alt="background-image">
-</div>
-  <div class="middle-container">
+  <div class="top-container " id="HOME">
+
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link" href="#HOME">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#SKILLS">SKILLS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#PROJECTS">PROJECTS/TRAINING</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#CONTACT">CONTACT</a>
+          </li>
+        </ul>
+
+
+    </nav>
+
     <div class="profile">
     <img class="flower-1" src="https://media.giphy.com/media/ZZTtOMNhYWAxgxuAUg/giphy.gif" alt="f-1">
-      <img class="profile1 circular" src="IMG-20200121-WA0233.jpg" alt="proflie-photo">
+    <img class="profile1 circular" src="images\mohi.jpg" alt="proflie-photo">
+
       <img class="flower-2" src="https://media.giphy.com/media/ZZTtOMNhYWAxgxuAUg/giphy.gif" alt="f-2">
       <h2><p class="hello">Hello!</p></h2>
       <p class="intro">I am an aspiring Web designer/developer. I am currently doing my B.Tech in Electronics and Communications.</p>
 
     </div>
+  </div>
 
-    <div class="skills">
+
+  <div class="middle-container">
+
+    <div class="skills" id="SKILLS">
       <h2><p class="my-skills"> My Skills.</p></h2>
       <div class="skill-row">
         <img class="design" src="https://media.giphy.com/media/d9IfL7seBexHLct75B/giphy.gif" alt="design-gif">
-        <h3>Web Development</h3>
+        <h3>Web Desing and Development</h3>
         <p class="row-1">I started as a hobby but now I am interested in coding, and want to learn how to combine it with my artistic side to produce a cool website. I'm still beginner and have yet to master the art of web development.</p>
       </div>
       <div class="skill-row">
-         <img class="time" src="https://image.flaticon.com/icons/svg/66/66403.svg" alt="time-image">
+        <img class="time" src="https://image.flaticon.com/icons/svg/66/66403.svg" alt="time-image">
         <h3>Time Management</h3>
         <p class="row-2"> I absolutely understand the importance of time and its management so I always atrive to give efficient outcomes.</p>
       </div>
@@ -42,27 +82,58 @@
         <img class="prob" src="https://image.flaticon.com/icons/svg/2618/2618461.svg" alt="prob-img">
         <h3>Problem Solving</h3>
         <p> Have adequate skills to analyze my problem to find an effective solution.</p>
-      </div> 
-        
+      </div>
     </div>
-    <hr>
-    <div class="contact-me">
+  </div>
+
+  <div  id="PROJECTS">
+
+    <div id="PROJECTS-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active  container-fluid">
+          <h2 class="PROJECTS-heading">Substrate integrated waveguide(SIW) Along with Filter for 5G Communication.</h2>
+          <P class="PROJECTS-text">In this project SIW has provided new approach in the design of microwave and millimeter-wave saystem. This project covers the study
+          and designing of Rectangular-waveguide, basic SIW and a band-pass filter for SIW to microstrip transition for the frequency of 6GHz,
+          that is for 5G communications. The final design was fabricated and tested as well.</P>
+        </div>
+        <div class="carousel-item  container-fluid">
+          <h2 class="PROJECTS-heading">Full Stack Development.</h2>
+          <P class="PROJECTS-text">This training is still under process because there are still some modules left in order for me to be a full stcak developer.
+          This is something I have always been interested in, if talking about coding.</P>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#PROJECTS-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#PROJECTS-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </div>
+
+    <div class="contact-me" id="CONTACT">
       <h2>Get In Touch</h2>
       <h3>If you are inetersted in what I do and how I do.</h3>
       <p class="contact-message">We can talk more about it! I'm a freelancer and and will definitely like to have project collaborations.</p>
-      <a class="btn" href="mailto:mohimishrajiitgmail.com">CONTACT ME</a>
+
+       <button type="button" class="btn btn-lg btn-lg btn btn-outline-light contact-button"> <a class="btn" href="mailto:mohimishrajiitgmail.com">CONTACT ME</a> </button>
     </div>
   </div>
+
+</div>
 
 
   <div class="bottom-container">
    <div class="last">
 
-    <a class="footer-link" href="https://www.instagram.com/mishra_mohi/"><i class="fab fa-instagram cool-icon"> </i> Instagram</a>
-    
+    <a class="footer-link" href="https://www.instagram.com/mishra_mohi/"> <i class="fab  fa-instagram cool-icon"> </i></a>
+    <a class="footer-link" href="https://github.com/mishra016"><i class="fab  fa-github cool-icon"></i> </a>
+
+
   </div>
 
-    <p class="copy-right">© 2020 Mohi Mishra.All rights reserved.</p>
+    <p class="copy-right">© 2020 Mohi Mishra. All rights reserved.</p>
   </div>
 
 
